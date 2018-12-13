@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" href="css/zhuce.css" />
+	</head>
+	<body>
+<!--header-->
+	<div class="head">
+		<a href=""><img src="img/logo-white.png"/></a>
+		<div>
+			<a href="">在线客服</a>|
+			<span>客服热线：4008-870-566 </span>
+		</div>
+	</div>
+<!--fanhui-->
+	<div class="back">
+		<a href="index.html">返回首页</a>
+	</div>
+<!--zhuce-->
+<div class="zhuce">
+	<div class="tittop">注册</div>	
+	
+	<div class="title">
+		<span></span>
+		<img src="img/login-logo.png" alt="" />
+		<span></span>
+	</div>
+	
+	<div class="setnum">
+		<span class="num">1</span> 
+		<span>验证手机号&设置密码</span>
+	</div>
+	<div class="linebox"></div>
+	
+	<form action="zhuce.php" method="get">
+		<p>验证手机号</p>
+
+        <input type="text" class="form-control material material-input" id="phoneNumber" name="phoneNumber" placeholder="*手机号码"><span></span><br />
+			
+		<input class="checkma" type="text" placeholder="*输入动态验证码"/><input class="checkbtn" type="button" value="发送动态验证码" />
+		<p>设置登录密码</p>
+	
+		<input type="password" id="passWord" name="passWord" placeholder="*设置登录密码 6-8个字符,包含数字大小写字母" /><span></span><br />
+		<input type="password" id="passnext" placeholder="*确认登录密码" /><span></span><br />
+		<div class="radiobox">
+			<input type="checkbox" class="checkbox" />
+			<span>
+				接受新秀丽<a href="javascript:;">使用条款</a>和<a href="javascript:;">隐私条款</a>
+			</span>
+			<br />
+		</div>
+
+		<input type="submit" name="" id="savebtn" value="保存" />
+		
+	</form>
+</div>
+<!-- footer -->
+	<div class="footer">
+		<div class="leftfoot">
+			<span>新秀丽（中国）有限公司</span>
+			<span>Copyright © 2018 Samsonite. All rights reserved.</span>
+		</div>
+		<div class="rightfoot">
+			<a href="javascript:;">使用条款</a>
+			<span>|</span>
+			<a href="javascript:;">隐私条款</a>
+			<span>|</span>
+			<a href="javascript:;"> 浙ICP备16038745号-2 浙公网安备 33020602000173号</a>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	function $(id){
+		return document.getElementById(id);
+	}
+	window.onload=function(){
+		//验证手机号
+		$("phoneNumber").onblur=function(){
+			var reg=/^1\d{10}$/;
+			if(reg.test(this.value)){
+				this.nextElementSibling.innerHTML="√";
+			}else{
+				this.nextElementSibling.innerHTML="×";
+
+			}
+		}
+		//验证密码
+		$("passWord").onblur=function(){
+			var reg=/[a-zA-Z0-9]{6,8}/
+			if(reg.test(this.value)){
+				this.nextElementSibling.innerHTML="√";
+			}else{
+				this.nextElementSibling.innerHTML="×";
+
+			}
+		}
+		
+		$("passnext").onblur=function(){
+			var t=$("passWord").value;
+		if($("passnext").value==t){
+				this.nextElementSibling.innerHTML="√";
+			}else{
+				this.nextElementSibling.innerHTML="×";
+
+			}
+	}
+		
+}
+</script>

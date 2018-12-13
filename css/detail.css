@@ -1,0 +1,350 @@
+/*seller*/
+.seller{
+	box-sizing: border-box;
+	/*padding: 100px 0;*/
+	background: #eef1f6;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+.sale,.sale-two{
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 60px;
+	margin-left: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 150px;
+}
+.sale-two{
+	position: absolute;
+	bottom: 160px;
+	right: -100%;
+}
+.seller h2{
+	/*padding-top: 50px;*/
+	font-size: 28px;
+	font-weight: 500;
+}
+.seller h4{
+	font-size: 22px;
+	font-weight: 500;
+}
+.pack{
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+	background:#efefef;
+	margin: 0 20px;
+
+}
+
+.detialp{
+	box-sizing: border-box;
+	position: absolute;
+	bottom: -50px;
+	left: 0px;
+	width: 100%;
+	display: none;
+	background: white;
+	padding:0 30px ;	
+}
+.detialp p{
+	font-size: 12px;
+	margin-bottom: 15px;
+	
+}
+.detialp a{
+	display: block;
+	width: 150px;
+	height: 42px;
+	line-height: 42px;
+	background: black;
+	color: white;
+	margin-bottom: 20px;
+}
+.pack:hover .detialp{
+	display: block;
+}
+/*indexhead*/
+.indexhead{
+	height: 40px;
+	margin-left: 150px;
+	font-size: 14px;
+	margin-top: 15px;
+}
+.indexhead a{
+	color: #C6C6C6;
+	font-size: 14px;
+	margin: 0 10px;
+}
+
+/*detail*/
+.detail{
+	height: 600px;
+	margin: 0 5%;
+		
+}
+.left-detail{
+	float: left;
+	width: 40%;
+	position: relative;
+	text-align: center;
+}
+.topde{
+	height:450px ;
+	border: 1px solid #C6C6C6;
+	text-align: center;
+}
+
+.topde .life{
+	position: absolute;
+	top:30px;
+	left: 80px;
+}
+.topde:hover .life{
+	display: none;
+}
+.bottomde ul{
+	overflow: hidden;
+
+}
+.bottomde ul li {
+	float: left;
+	width: 12%;
+	text-align: center;
+/*	border: 2px solid #C6C6C6;*/
+}
+.bottomde ul li img{
+}
+.right-detail{
+	width: 40%;
+	height: 600px;
+	float: right;	
+}
+.dec{
+	margin: 10px 0;
+	height: 20px;
+}
+.dec span{
+	font-size: 14px;
+}
+.dec span:first-child{
+	float: left;
+}
+.dec span:last-child{
+	float: right;
+}
+.right-detail p{
+	clear: both;
+	margin: 15px 0;
+}
+.doller{
+	width: 100%;
+	margin: 15px 0;
+	height: 40px;
+	border-bottom: 1px solid #C6C6C6;
+	font-size: 14px;
+	position: relative;
+}
+.doller span:first-child{
+	float: left;
+}
+.doller span:last-child{
+	float: right;
+}
+.ma{
+	display: none;
+}
+.circle div{
+	float: left;
+	margin-left: 10px;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
+.circle{
+	height: 40px;
+	margin-top: 8px;
+}
+.circle a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-left: 1.5px;
+	margin-top:1.5px;
+	border-radius: 50%;
+	background: black;
+}
+.circle .circle-2{
+	background: #C6C6C6;
+}
+.cun{
+	width: 100%;
+	height: 30px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.cun a{
+	border: 1px solid black;
+	margin-left: 10px;
+	color: black;
+}
+.size input{
+	width: 100px;
+	height: 25px;
+	margin-left: 10px;
+}
+.size{
+	border-bottom: 1px solid #C6C6C6;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.xuangou input{
+	width: 200px;
+	height: 40px;
+	color: black;
+	background: white;
+	font-size: 14px;
+	border: 1px solid black;
+}
+.xuangou input:last-of-type{
+	color: white;
+	background: black;
+}
+.xuangou{
+	border-bottom: 1px solid #C6C6C6;
+	margin-bottom: 20px;
+}
+.xuangou p{
+	font-size: 12px;
+	color: black;
+}
+.xuangou a{
+	color: black;
+	text-decoration: underline;
+}
+.fenxiang{
+	font-size: 12px;
+}
+.fenxiang span img{
+	vertical-align: middle;
+	width: 14px;
+	height: 14px;
+}
+.fenxiang span:first-child{
+	float: left;
+}
+.fenxiang span:last-child{
+	float: right;
+}
+.fenxiang span:last-child img{
+	margin: 0 5px;
+}
+/*shopcar*/
+.shopcar{
+	width:350px;
+	height: 500px;
+	background: white;
+	position: absolute;
+	right: 0;
+	top: 200px;
+	display: none;
+}
+.headerbox{
+	position: relative;
+}
+
+.guanbi{
+	height: 30px;
+	margin-top: 20px;
+	padding:0 10px ;
+}
+.guanbi span{
+	font-size: 18px;
+}
+.guanbi img{
+	float: right;
+}
+.num{
+	margin-bottom: 15px;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.probox{
+	height: 280px;
+	overflow-y: auto;
+	border-top:1px solid #C6C6C6;
+	
+}
+.product{
+	border-top:1px solid #C6C6C6;
+	border-bottom: 1px solid #C6C6C6;
+	height: 90px;
+	padding: 30px 20px;
+}
+.proleft{
+	float: left;
+	width: 120px;
+}
+.proright{
+	float: right;
+	width: 170px;
+}
+.proright-head a{
+	font-size: 12px;
+	color: black;
+}
+.proright-head p{
+	font-size: 14px;
+	color: #C6C6C6;
+}
+.proright span{
+	font-size: 12px;
+		color: #C6C6C6;
+}
+.del{
+	margin-top: 10px;
+}
+.del span:first-child{
+	float: left;
+	font-weight: 600;
+	color: black;
+}
+.del span:last-child{
+	float: right;
+}
+/*底部*/
+.sum{
+	margin-top: 10px;
+	padding: 0 10px;
+}
+.sum span:first-child{
+	float: left;
+}
+.sum span:last-child{
+	float: right;
+}
+.check-btn{
+	clear: both;
+	height: 40px;
+
+}
+.check-btn input{
+	margin-top: 20px;
+	width: 150px;
+	height: 35px;
+	margin-left: 10px;
+}
+.inputone {
+	background: white;
+	color: black;
+	border: 1px solid black;
+}
+.check-btn input:last-child{
+	background: black;
+	color: white;
+	border: 1px solid black;
+}

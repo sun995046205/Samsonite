@@ -1,0 +1,176 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:"微软雅黑",Arial;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style:none;
+}
+img{
+    border:none;
+}
+/*head*/
+.adv{
+	width: 100%;
+	height: 50px;
+	background: ;
+}
+.head{
+	height: 80px;
+	background:black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+.head div{
+	color: white;
+	font-size: 14px;
+	margin-left: 100px;
+}
+.head a{
+	color: white;
+	margin-right: 15px;
+}
+.head span{
+	margin-left: 15px;
+}
+/*fanhui*/
+.back{
+	margin: 20px 0  20px 100px;
+}
+.back a{
+	color: #101010;
+	font-size: 14px;
+	text-decoration: underline;
+}
+/*zhuce*/
+.zhuce{
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+}
+.setnum{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+}
+.num{
+	float: left;
+	width: 20px;
+	height: 20px;
+	color: white;
+	text-align: center;
+	margin-right: 8px ;
+	border-radius:50% ;
+	background: black;
+}
+.linebox{
+	width: 62%;
+	border-bottom: 2px solid black;
+	margin:  10px auto  50px;
+}
+.title{
+	display: flex;
+	justify-content: center;
+}
+.tittop{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.title span{
+	display: block;
+	height: 1px;
+	width: 30%;
+	margin-top: 5px;
+	border-bottom: 1px #999999 solid;
+}
+.title img{
+	margin: 0 3px;
+}
+
+form input{
+	width: 62%;
+	height: 40px;
+	margin-bottom: 40px;
+}
+form p{
+	margin-bottom: 20px;
+	text-align: left;
+	margin-left: 200px;
+}
+.checkma{
+	width: 45%;
+}
+.checkbtn{
+	width: 17%;
+	height: 44px;
+	background: black;
+	color: white;
+	border: none;
+	cursor: pointer;
+	
+}
+.checkbox{
+	width: 20px;
+	height: 20px;
+}
+#savebtn{
+	background: black;
+	color: white;
+	border: none;
+	margin-bottom: 110px;
+	cursor: pointer;
+}
+.radiobox{
+	text-align: start;
+	margin-left: 200px;
+	font-size: 12px;
+
+}
+.radiobox a{
+	color: black;
+	text-decoration: underline;
+}
+.radiobox span{
+
+}
+/*footer*/
+.footer{
+	box-sizing: border-box;
+	width: 100%;
+	height: 68px;
+	background:white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0  140px;
+	border-top: 1px solid gray;
+}
+.leftfoot span:first-child{
+	font-size: 14px;
+	color: #555;
+	margin-right: 34px;
+}
+.leftfoot span:last-child{
+	font-size: 14px;
+	color: #888;
+}
+.rightfoot span{
+	color: #888;
+	margin: 0 18px;
+}
+.rightfoot a{
+	font-size: 14px;
+	color: #888;
+}
+.rightfoot a:hover{
+	text-decoration: underline;
+}

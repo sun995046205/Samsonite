@@ -1,0 +1,202 @@
+
+/*banner*/
+.banner{
+	height: 560px;
+	/*margin-bottom: 100px;*/
+}
+/*litebox*/
+.litebox{
+	width: 100%;
+}
+.liteleft{
+	float: left;
+	text-align: center;
+	width: 50%;
+	
+}
+.liteleft p{
+	color: black;
+}
+.liteleft p:nth-of-type(1){
+	font-size: 14px;
+}
+.liteleft p:nth-of-type(2){
+	font-size: 24px;
+	
+}
+.liteleft p:nth-of-type(3) a{
+	color: black;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.literight{
+	width: 50%;
+	float: right;
+	text-align: center;
+	margin-top: 180px;
+}
+.literight p{
+	margin-top: 30px;
+}
+.litebottom{
+	height: 500px;
+	text-align: center;	
+	clear: both;
+	padding-top:100px ;
+	
+}
+/*luggage*/
+.luggage{
+	text-align: center;
+}
+.cateleft,.cateright{
+	width: 40%;
+	background:#efefef;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.cateleft{
+	padding: 0 5%;
+	text-align: center;
+	float: left;
+ 	margin-left: 120px;
+	#efefef
+}
+ .cateleft img{
+	text-align: center;
+ 	display: block;
+
+ }
+ .cateright img{
+ 	display: block;
+ 	margin: 195px auto 0;
+ }
+.cateright{
+	float: right;
+	margin-right: 120px;
+}
+.cateleft h3{
+		font-size: 40px;
+		font-weight: 400;
+}
+.cateleft p{
+	font-size: 14px;
+	margin: 30px 0  ;
+}
+.cateleft .aspero{
+	color: black;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	border-bottom: 3px solid black;
+}
+.cateleft a span{
+	margin-left:70px;
+}
+
+.pack{
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+	background:#efefef;
+	margin: 0 20px;
+
+}
+
+.detialp{
+	box-sizing: border-box;
+	position: absolute;
+	bottom: -50px;
+	left: 0px;
+	width: 100%;
+	display: none;
+	background: white;
+	padding:0 30px ;	
+}
+.detialp p{
+	font-size: 12px;
+	margin-bottom: 15px;
+	
+}
+.detialp a{
+	display: block;
+	width: 150px;
+	height: 42px;
+	line-height: 42px;
+	background: black;
+	color: white;
+	margin-bottom: 20px;
+}
+.pack:hover .detialp{
+	display: block;
+}
+/*catebottom*/
+.catebottom{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	clear: both;
+	padding-bottom: 200px;
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+.pack2{
+	width: 33%;
+	margin: 0 auto;
+}
+.pack2:hover{
+	background: white;
+}
+.cateall{
+	padding-bottom:150px ;
+	text-align: center;
+	margin-top: -180px;
+
+}
+.cateall a{
+	display: block;
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	background: black;
+	color: white;
+	font-size: 14px;	
+	margin: 0 auto;
+	
+}
+/*seller*/
+.seller{
+	box-sizing: border-box;
+	/*padding: 100px 0;*/
+	background: #eef1f6;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+.sale,.sale-two{
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 60px;
+	margin-left: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 150px;
+	
+}
+.sale-two{
+	position: absolute;
+	bottom: 160px;
+	right: -100%;
+}
+.seller h2{
+	/*padding-top: 50px;*/
+	font-size: 28px;
+	font-weight: 500;
+}
+.seller h4{
+	font-size: 22px;
+	font-weight: 500;
+}
