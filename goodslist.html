@@ -32,7 +32,7 @@
 			<a href="javascript:;">|</a>
 			<a href="zhuce.html" target="_blank">注册</a>	
 			<a href="javascript:;"><img src="img/xin.png" alt=""></a>
-			<a href="javascript:;"><img src="img/suo.png" alt=""></a>
+			<a href="javascript:;"><img class="bag"  src="img/suo.png" alt=""></a>
 			<a href="javascript:;">0</a>
 		</div>
 	</div>
@@ -53,7 +53,7 @@
 		<a href="javascript:;">|</a>
 		<a href="zhuce.html">注册</a>	
 		<a href="javascript:;"><img src="img/xin.png" alt=""></a>
-		<a href="javascript:;"><img src="img/suo.png" alt=""></a>
+		<a href="javascript:;"><img class="bag"  src="img/suo.png" alt=""></a>
 		<a href="javascript:;">0</a>
 	</div>
 </div>
@@ -237,6 +237,109 @@
 	</div>
 	
 </div>
+<!--shopcar-->
+<div class="shopcar">
+	<!--头部-->
+	<div class="guanbi">
+		<span>购物车</span>
+		<img class="clo" src="img/close.png" width="5%"/>
+	</div>
+	
+	<div class="num">
+		您的购物车里有<span>1</span>件商品
+	</div>
+	
+	
+	<div class="probox">
+		<div class="product">
+			<div class="proleft">
+				<img src="img/42N002957.jpg" width="60%" alt="" />
+			</div>
+			<div class="proright">
+				<div class="proright-head">
+					<a href="goodslist.html">
+						Samsonite/新秀丽明星同款 经典铝镁合金登机行李箱23英寸
+					</a>
+					<p>RAYDIEN</p>
+					<span>23英寸</span>
+					<span>|</span>
+					<span>银色</span>
+					<span>×1</span>
+				</div>
+				<div class="del">
+					<span>
+						¥ 5,380.00
+					</span>
+					<span>
+						<img src="img/delete.png" alt="" />
+					</span>
+				</div>
+			</div>
+		</div>
+	<!--商品-->
+		<div class="product">
+			<div class="proleft">
+				<img src="img/42N002957.jpg" width="60%" alt="" />
+			</div>
+			<div class="proright">
+				<div class="proright-head">
+					<a href="goodslist.html">
+						Samsonite/新秀丽明星同款 经典铝镁合金登机行李箱23英寸
+					</a>
+					<p>RAYDIEN</p>
+					<span>23英寸</span>
+					<span>|</span>
+					<span>银色</span>
+					<span>×1</span>
+				</div>
+				<div class="del">
+					<span>
+						¥ 5,380.00
+					</span>
+					<span>
+						<img src="img/delete.png" alt="" />
+					</span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="product">
+			<div class="proleft">
+				<img src="img/42N002957.jpg" width="60%" alt="" />
+			</div>
+			<div class="proright">
+				<div class="proright-head">
+					<a href="goodslist.html">
+						Samsonite/新秀丽明星同款 经典铝镁合金登机行李箱23英寸
+					</a>
+					<p>RAYDIEN</p>
+					<span>23英寸</span>
+					<span>|</span>
+					<span>银色</span>
+					<span>×1</span>
+				</div>
+				<div class="del">
+					<span>
+						¥ 5,380.00
+					</span>
+					<span>
+						<img src="img/delete.png" alt="" />
+					</span>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+	<!--底部-->
+	<div class="sum">
+			<span>共3件商品</span>
+			<span>预计总额 ¥ 16,140.00</span>
+	</div>
+	<div class="check-btn">
+		<a href="shopping.html"><input type="button"  value="查看购物车"/></a>
+		<input type="button" value="结算"/>
+	</div>
+</div>
 <!--banner-->
 <div class="banner">
 	<img src="img/bg-1.jpg" alt="" style="width: 100%;" />
@@ -365,6 +468,7 @@
 		<li id="libtn3"></li>
 	</ul>
 	</div>
+
 <!--serve-->
 <div class="serve">
 	<div class="list">
@@ -518,7 +622,14 @@
 						$(".url").hide();	
 					}
 				});
+		//购物车
+				$(".bag").click(function(){
+					$(".shopcar").toggle(200);
+				});
 				
+				$(".clo").click(function(){
+					$(".shopcar").hide();
+				});		
 		//顶部轮播图
 		 $('#banner1').myscroll({
             picEl: $('#move'), //图片父级，不传默认为banner内第1个div

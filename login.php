@@ -2,7 +2,7 @@
 	header("Content-type:text/html;charset=utf-8");
 	//一、接收
 	$phoneNumber = $_POST['phoneNumber'];
-	$passWord = $_$_POST['passWord'];
+	$passWord = $_POST['passWord'];
 	
 	//二、处理
 	//1、连接数据库服务器

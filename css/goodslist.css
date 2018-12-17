@@ -200,3 +200,109 @@
 	font-size: 22px;
 	font-weight: 500;
 }
+/*shopcar*/
+.shopcar{
+	width:350px;
+	height: 500px;
+	background: white;
+	position: fixed;
+	right: 0;
+	top: 180px;
+	z-index: 100;
+	display: none;
+}
+.headerbox{
+	position: relative;
+}
+
+.guanbi{
+	height: 30px;
+	margin-top: 20px;
+	padding:0 10px ;
+}
+.guanbi span{
+	font-size: 18px;
+}
+.guanbi img{
+	float: right;
+}
+.num{
+	margin-bottom: 15px;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.probox{
+	height: 280px;
+	overflow-y: auto;
+	border-top:1px solid #C6C6C6;
+	
+}
+.product{
+	border-top:1px solid #C6C6C6;
+	border-bottom: 1px solid #C6C6C6;
+	height: 90px;
+	padding: 30px 20px;
+}
+.proleft{
+	float: left;
+	width: 120px;
+}
+.proright{
+	float: right;
+	width: 170px;
+}
+.proright-head a{
+	font-size: 12px;
+	color: black;
+}
+.proright-head p{
+	font-size: 14px;
+	color: #C6C6C6;
+}
+.proright span{
+	font-size: 12px;
+		color: #C6C6C6;
+}
+.del{
+	margin-top: 10px;
+}
+.del span:first-child{
+	float: left;
+	font-weight: 600;
+	color: black;
+}
+.del span:last-child{
+	float: right;
+}
+/*底部*/
+.sum{
+	margin-top: 10px;
+	padding: 0 10px;
+}
+.sum span:first-child{
+	float: left;
+}
+.sum span:last-child{
+	float: right;
+}
+.check-btn{
+	clear: both;
+	height: 40px;
+
+}
+.check-btn input{
+	margin-top: 20px;
+	width: 150px;
+	height: 35px;
+	margin-left: 10px;
+}
+.inputone {
+	background: white;
+	color: black;
+	border: 1px solid black;
+}
+.check-btn input:last-child{
+	background: black;
+	color: white;
+	border: 1px solid black;
+}
